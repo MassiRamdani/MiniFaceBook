@@ -103,6 +103,6 @@ const payLoad = {
 };
 
 
-webpush.sendNotification(sub, JSON.stringify(payLoad));
+//webpush.sendNotification(sub, JSON.stringify(payLoad));
 
 module.exports = app;

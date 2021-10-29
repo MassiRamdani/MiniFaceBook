@@ -49,7 +49,7 @@ exports.newPost = (req, res, next) => {
 
   const payLoad = {
     notification: {
-      data: {  },
+      data: { userName : 'User 5' },
       title: 'User 5 added a new post !',
       vibrate: [100, 50, 100],
     },
